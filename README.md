@@ -4,7 +4,20 @@
 
 Convert self-contained HTML slide decks (1920 × 1080 slides authored as `.slide` elements) to `.pptx`.
 
-Two modes:
+## Why convert HTML → PowerPoint?
+
+HTML decks look great, but the moment you want to *ship* them, PowerPoint wins on almost every practical axis:
+
+- **Easier to edit.** Most teammates don't know CSS. They know PowerPoint. Handing over a `.pptx` means anyone — PM, sales, exec — can fix a typo, retitle a slide, or swap a screenshot in 10 seconds instead of hunting through `<div class="…">`.
+- **Built for team collaboration.** PowerPoint has track-changes, comments, co-authoring, revision history, and a "compare" mode. Sharing an HTML file over Slack means everyone edits a different local copy and the diffs are unmergeable.
+- **Frictionless distribution.** `.pptx` is the universal currency of business decks — email attachments, SharePoint, Google Slides import, PDF export, printable handouts, embedded in Confluence/Notion. HTML decks need hosting, a link that doesn't rot, and a viewer that renders your CSS the same way you did.
+- **Design lives on.** Every text style, color, and image becomes a native object — reusable in the next deck, remixable in a client template, restyleable to a new brand without a rebuild.
+- **Presenter tools work out of the box.** Speaker notes, presenter view, laser pointer, seamless Teams/Zoom sharing, offline playback in a boardroom with flaky Wi-Fi.
+- **Long-term archive.** `.pptx` is an open, versioned, ISO-standard format. HTML depends on fonts, CDNs, browser quirks, and JS libraries that all decay. A PowerPoint from 2010 still opens; a webpage from 2010 usually doesn't.
+
+The goal isn't to replace your HTML source — that stays the master. The goal is to give the deck a **second life** in the tool where it will actually be edited, forwarded, and printed.
+
+## Two modes
 
 | Mode | Result |
 |---|---|
