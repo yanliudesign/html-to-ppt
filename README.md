@@ -24,8 +24,6 @@ The goal isn't to replace your HTML source — that stays the master. The goal i
 | **Editable** | Every text run, image, and colored box becomes a **native PowerPoint object** you can select, restyle, and edit. |
 | **Raster** | One full-bleed image per slide. Fast, always visually faithful, but not editable. |
 
-Written for HTML decks that use a `1920×1080` fixed stage — the same convention as the [frontend-slides](../frontend-slides) skill and most single-file HTML presentations.
-
 ## Quick start
 
 ### Editable mode
