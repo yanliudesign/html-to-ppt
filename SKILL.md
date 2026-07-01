@@ -1,6 +1,6 @@
 ---
 name: html-to-ppt
-description: Convert a self-contained HTML slide deck (1920×1080 slides authored as `.slide` elements) into a `.pptx` file. Two modes — **editable** (every text run, image and box becomes a native PowerPoint object you can select and edit) and **raster** (one full-bleed image per slide, fast and always visually faithful). Use when the user says "download as PowerPoint / PPTX", "把 HTML 幻灯片转成 ppt", "make an editable version of this deck", "export slides to PowerPoint", or hands over an HTML deck and asks for a .pptx.
+description: Convert a self-contained HTML slide deck (1920×1080 slides authored as `.slide` elements) into a `.pptx` file. Two modes — **editable** (每个文本、图片、色块都是原生 PowerPoint 对象，可选中/可编辑) and **raster** (整张幻灯片一张图，视觉 100% 保真但不可编辑). Use when the user says "download as PowerPoint / PPTX", "make an editable version of this deck", "export slides to PowerPoint", or hands over an HTML deck and asks for a `.pptx`. 中文触发词：把 HTML 幻灯片转成 ppt、HTML 转 PPT、网页转 ppt、幻灯片下载成 PowerPoint、下载成 ppt、导出 ppt、导出 PowerPoint、生成可编辑的 ppt、可编辑版本、editable 版本、保留原样的 ppt、整图版 ppt、把这个 deck 转成 ppt、这个网页幻灯片能导出成 ppt 吗。
 ---
 
 # HTML → PowerPoint
