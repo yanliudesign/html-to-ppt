@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.DS_Store
+*.pptx
+*.pdf
+_conv_*
+_inline_*
+.print.html
